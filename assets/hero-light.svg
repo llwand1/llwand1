@@ -109,7 +109,7 @@
 <line x1="664" y1="184" x2="928" y2="184"
       stroke="#d7e2f3" stroke-width="1"/>
 <text x="664" y="208" font-size="13" font-weight="600"
-      font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', Roboto, Helvetica, Arial, sans-serif" fill="#33415c">免注册，点开就能试 →</text>
+      font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', Roboto, Helvetica, Arial, sans-serif" fill="#33415c">免注册，直接体验 →</text>
 <text x="664" y="228" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
       fill="#5f7391">Caddy · systemd · SQLite WAL</text>
 </svg>

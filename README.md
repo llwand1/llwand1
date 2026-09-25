@@ -31,11 +31,11 @@
 
 | 环 | 做的事 |
 |:---:|---|
-| **学** | 流式对话 · 思考链 · 联网检索 · 长文档 BM25 检索 |
-| **练** | 自建出题引擎：结构化协议、自动判分、AI 特化 SVG 配图 |
+| **学** | 流式对话 · 思考链 · 联网检索 · 长文档 BM25 |
+| **练** | 自建出题引擎 · 结构化协议 · 自动判分 · AI 特化配图 |
 | **析** | 逐题正确率 · 薄弱点定位 · 学习趋势 |
-| **忆** | AI 自学词条库 · 艾宾浩斯复习时钟 · 跨会话长期记忆 |
-| **反馈** | 事件总线驱动 XP / 连签 / 今日总结，外加 AI 主动督促 |
+| **忆** | AI 自学词条库 · 艾宾浩斯复习时钟 · 跨会话记忆 |
+| **反馈** | 事件总线驱动 XP / 连签 / 今日总结 · AI 主动督促 |
 
 <img src="assets/app-landing.png" width="100%" alt="StudentBuddy 落地页首屏">
 
@@ -43,9 +43,9 @@
 
 <img src="assets/app-chat.png" width="100%" alt="StudentBuddy 应用壳 · 对话">
 
-<p align="center"><sub>应用壳 · 对话 —— 左侧八视图导航，右下角常驻督促胶囊</sub></p>
+<p align="center"><sub>应用壳 · 对话 —— 八视图导航 + 常驻督促胶囊</sub></p>
 
-数据自持、本地优先：同一套代码既能单机跑（SQLite 单文件 + WAL，默认只绑 `127.0.0.1`），也能自建服务器多用户跑；模型 key 和词条都是你自己的。线上这台也是我自己运维的小规格 VPS（Caddy 反代 + systemd），运行时只依赖 6 个第三方包。
+数据自持、本地优先：同一套代码既能单机跑（SQLite 单文件 + WAL），也能自建服务器多用户跑，模型 key 和词条都是你自己的。线上这台也是我自己运维的——小规格 VPS，Caddy 反代 + systemd，运行时只依赖 6 个第三方包、0 个第三方 UI 库。
 
 <p>
   <img src="https://img.shields.io/github/v/release/llwand1/studentbuddy-v2?label=release&color=8a63f6&style=flat-square" alt="release">
@@ -57,25 +57,13 @@
 
 ---
 
-## 我在做的三件事
-
-| 项目 | 是什么 | 现在在哪 |
-|---|---|---|
-| **StudentBuddy**<br><sub>`studentbuddy-v2`</sub> | 本地优先的 AI 学习助手，单机与多用户共用一份代码 | **[11wand.com](https://11wand.com)**<br>已上线 · 公开仓 · MIT |
-| **AI 编排中心**<br><sub>`ai-orchestrator-v2`</sub> | 单人本地用的 AI 协作池，把原生内核和多家外部 AI 编在一起互相派活 | 本地日常在用<br>私有仓 |
-| **会打招呼的简历 Agent**<br><sub>`resume`</sub> | 静态简历 + 一个会主动开口的 AI 分身，只按真实信息作答 | 评测完成，待上线<br>私有仓 |
-
----
-
 ## 里程碑
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/milestone-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/milestone-light.svg">
-  <img src="assets/milestone-light.svg" width="100%" alt="成长时间线：2026.03 GitHub 起步 → 2026.07 个人博客上线 / StudentBuddy v1 → 2026.09.05 v2 全新重写 → 2026.09.13 AI 编排中心 → 2026.09.19 11wand.com 上线 → 2026.09.24 v0.2.118 发布">
+  <img src="assets/milestone-light.svg" width="100%" alt="StudentBuddy 成长时间线：2026.03 GitHub 起步 → 2026.07 v1 → 2026.09.05 v2 重写 → 2026.09.19 11wand.com 上线 → 2026.09.24 v0.2.118 发布">
 </picture>
-
-个人博客 [llwand1.github.io](https://llwand1.github.io) 一直在更；`studentbuddy` 是 v1，已冻结归档。
 
 ---
 

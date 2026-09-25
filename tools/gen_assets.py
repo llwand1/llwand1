@@ -214,7 +214,7 @@ def hero(p, mode):
 <line x1="{inner_x}" y1="{card_y + 140}" x2="{card_x + card_w - 24}" y2="{card_y + 140}"
       stroke="{p['card_stroke']}" stroke-width="1"/>
 <text x="{inner_x}" y="{card_y + 164}" font-size="13" font-weight="600"
-      font-family="{FONT}" fill="{p['text2']}">免注册，点开就能试 →</text>
+      font-family="{FONT}" fill="{p['text2']}">免注册，直接体验 →</text>
 <text x="{inner_x}" y="{card_y + 184}" font-size="11" font-family="{MONO}"
       fill="{p['muted']}">Caddy · systemd · SQLite WAL</text>
 </svg>
@@ -223,12 +223,11 @@ def hero(p, mode):
 
 # ---------------------------------------------------------------- 里程碑
 
+# 只讲 StudentBuddy 一条线；其他项目不进时间线。
 MILESTONES = [
     ('2026.03', 'GitHub 起步', '第一个公开仓'),
-    ('2026.07', '个人博客上线', 'Hexo · 持续更新'),
     ('2026.07', 'StudentBuddy v1', '学习闭环成型'),
     ('2026.09.05', 'v2 全新重写', '3 包 monorepo'),
-    ('2026.09.13', 'AI 编排中心', '多家 AI 协作池'),
     ('2026.09.19', '11wand.com 上线', '多用户 Web 形态'),
     ('2026.09.24', 'v0.2.118 发布', '更新日志页上线'),
 ]
@@ -243,7 +242,7 @@ def milestone(p, mode):
     nodes = []
     for i, (date, title, sub) in enumerate(MILESTONES):
         cx = x0 + i * step
-        hot = (i == 5)          # 11wand.com 上线 —— 唯一的强调节点
+        hot = (i == 3)          # 11wand.com 上线 —— 唯一的强调节点
         col = p['a1'] if hot else p['muted']
         if hot:
             nodes.append(f'<circle cx="{cx}" cy="{y}" r="14" fill="{p["a1"]}" opacity="0.14"/>')
@@ -261,7 +260,7 @@ def milestone(p, mode):
             f'<text x="{cx}" y="{y + 57}" font-size="11" font-family="{FONT}" '
             f'fill="{p["muted"]}" text-anchor="middle">{esc(sub)}</text>')
 
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="成长时间线：2026.03 GitHub 起步 → 2026.09.19 11wand.com 上线">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="StudentBuddy 成长时间线：2026.03 GitHub 起步 → 2026.07 v1 → 2026.09.05 v2 重写 → 2026.09.19 11wand.com 上线 → 2026.09.24 v0.2.118 发布">
 <title>成长时间线</title>
 <defs>
   <linearGradient id="rail{gid}" x1="0" y1="0" x2="1" y2="0">
