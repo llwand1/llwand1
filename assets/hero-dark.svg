@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 272" width="1000" height="272" role="img" aria-label="llwan · AI 应用与 Node 服务端 · 线上实例 11wand.com">
+<title>llwan · AI 应用与 Node 服务端 · 线上实例 11wand.com</title>
+<defs>
+  <linearGradient id="bgg-dark" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0b1020"/>
+    <stop offset="1" stop-color="#141d33"/>
+  </linearGradient>
+  <linearGradient id="brandg-dark" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#3b82f6"/>
+    <stop offset="0.5" stop-color="#8a63f6">
+      <animate attributeName="offset" values="0.5;0.86;0.5" dur="7s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="1" stop-color="#22d3ee"/>
+  </linearGradient>
+  <linearGradient id="sweepg-dark" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#6ea8ff" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#6ea8ff" stop-opacity="1"/>
+    <stop offset="1" stop-color="#6ea8ff" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="glowAg-dark" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#3b82f6" stop-opacity="0.30"/>
+    <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glowBg-dark" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#8a63f6" stop-opacity="0.30"/>
+    <stop offset="1" stop-color="#8a63f6" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="gridg-dark" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#5b7bd6" stroke-width="1"/>
+  </pattern>
+  <clipPath id="frameg-dark">
+    <rect x="1" y="1" width="998" height="270" rx="17"/>
+  </clipPath>
+  <clipPath id="cardclipg-dark">
+    <rect x="640" y="44" width="312" height="188" rx="16"/>
+  </clipPath>
+</defs>
+
+<style>
+  .caret-dark   { animation: blink-dark 1.05s steps(1,end) infinite; }
+  .ping-dark    { transform-box: fill-box; transform-origin: center;
+                     animation: ping-dark 2.4s cubic-bezier(0,0,.2,1) infinite; }
+  .pulse-dark   { animation: pulse-dark 2.4s ease-in-out infinite; }
+  .sweep-dark   { animation: sweep-dark 5.5s linear infinite; }
+  .ring-dark    { animation: ring-dark 3.2s ease-in-out infinite; }
+  @keyframes blink-dark   { 0%,55% { opacity: 1; } 56%,100% { opacity: 0; } }
+  @keyframes ping-dark    { 0% { transform: scale(1); opacity: .75; }
+                               70%,100% { transform: scale(2.9); opacity: 0; } }
+  @keyframes pulse-dark   { 0%,100% { opacity: 1; } 50% { opacity: .45; } }
+  @keyframes sweep-dark   { 0% { transform: translateX(-180px); }
+                               100% { transform: translateX(1030px); } }
+  @keyframes ring-dark    { 0%,100% { stroke-opacity: .28; }
+                               50% { stroke-opacity: .85; } }
+  @media (prefers-reduced-motion: reduce) {
+    .caret-dark, .ping-dark, .pulse-dark, .sweep-dark, .ring-dark { animation: none; }
+  }
+</style>
+
+<g clip-path="url(#frameg-dark)">
+  <rect width="1000" height="272" fill="url(#bgg-dark)"/>
+  <rect width="1000" height="272" fill="url(#gridg-dark)" opacity="0.10"/>
+  <ellipse cx="140" cy="24" rx="330" ry="210" fill="url(#glowAg-dark)"/>
+  <ellipse cx="890" cy="296" rx="300" ry="180" fill="url(#glowBg-dark)"/>
+  <!-- 底部扫光 -->
+  <rect class="sweep-dark" x="0" y="269" width="180" height="3"
+        fill="url(#sweepg-dark)" opacity="0.10"/>
+</g>
+<rect x="1" y="1" width="998" height="270" rx="17" fill="none"
+      stroke="#2b3c60" stroke-width="2"/>
+
+<!-- 归一化：11 标 -->
+<rect x="48" y="44" width="60" height="60" rx="15" fill="url(#brandg-dark)"/>
+<text x="78.0" y="85.0" font-size="29"
+      font-weight="700" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" fill="#ffffff" text-anchor="middle"
+      letter-spacing="-1">11</text>
+
+<!-- 名称与身份 -->
+<text x="126" y="80" font-size="36" font-weight="800"
+      font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" fill="#eef3fb" letter-spacing="-0.5">llwan</text>
+<text x="128" y="102" font-size="14.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', Roboto, Helvetica, Arial, sans-serif"
+      fill="#7f93b3">储能材料 → 自学转开发 · AI 应用 &amp; Node 服务端</text>
+
+<rect x="48" y="130" width="88" height="28" rx="14" fill="#18233c" stroke="#2c3d61" stroke-width="1"/><text x="92.0" y="149" font-size="12.5" fill="#c3d1ea" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" text-anchor="middle">TypeScript</text><rect x="144" y="130" width="95" height="28" rx="14" fill="#18233c" stroke="#2c3d61" stroke-width="1"/><text x="191.5" y="149" font-size="12.5" fill="#c3d1ea" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" text-anchor="middle">Node.js 22+</text><rect x="247" y="130" width="75" height="28" rx="14" fill="#18233c" stroke="#2c3d61" stroke-width="1"/><text x="284.5" y="149" font-size="12.5" fill="#c3d1ea" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" text-anchor="middle">React 18</text><rect x="330" y="130" width="42" height="28" rx="14" fill="#18233c" stroke="#2c3d61" stroke-width="1"/><text x="351.0" y="149" font-size="12.5" fill="#c3d1ea" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" text-anchor="middle">SSE</text><rect x="380" y="130" width="88" height="28" rx="14" fill="#18233c" stroke="#2c3d61" stroke-width="1"/><text x="424.0" y="149" font-size="12.5" fill="#c3d1ea" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" text-anchor="middle">SQLite WAL</text>
+
+<!-- 闭环口号 -->
+<text x="48" y="200" font-size="19" font-weight="600"
+      font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', Roboto, Helvetica, Arial, sans-serif" fill="#b9c7e0">学 → 练 → 析 → 忆 → 反馈</text>
+<rect class="caret-dark" x="290.55999999999995" y="184" width="3" height="19"
+      rx="1.5" fill="#6ea8ff"/>
+<text x="48" y="228" font-size="12.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', Roboto, Helvetica, Arial, sans-serif"
+      fill="#7f93b3">本地优先 · 数据自持 · 可自托管</text>
+
+<!-- 11wand.com 实况卡 -->
+<rect class="ring-dark" x="640" y="44" width="312" height="188" rx="16"
+      fill="#111a2e" stroke="#3b82f6" stroke-width="1.5" stroke-opacity="0.3"/>
+<circle class="ping-dark" cx="669" cy="80" r="5" fill="none"
+        stroke="#34d399" stroke-width="2"/>
+<circle cx="669" cy="80" r="5" fill="#34d399"/>
+<text x="685" y="85" font-size="12" font-weight="700"
+      font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" fill="#34d399" letter-spacing="1.4">LIVE</text>
+<text x="928" y="85" font-size="12"
+      font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', Roboto, Helvetica, Arial, sans-serif" fill="#7f93b3" text-anchor="end">线上实例</text>
+
+<text x="664" y="140" font-size="28" font-weight="800"
+      font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" fill="#6ea8ff" letter-spacing="-0.8">11wand.com</text>
+<text x="664" y="166" font-size="12.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', Roboto, Helvetica, Arial, sans-serif"
+      fill="#b9c7e0">StudentBuddy · 以词条为中心的学习助手</text>
+
+<line x1="664" y1="184" x2="928" y2="184"
+      stroke="#2b3c60" stroke-width="1"/>
+<text x="664" y="208" font-size="13" font-weight="600"
+      font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', Roboto, Helvetica, Arial, sans-serif" fill="#b9c7e0">免注册，点开就能试 →</text>
+<text x="664" y="228" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
+      fill="#7f93b3">Caddy · systemd · SQLite WAL</text>
+</svg>
