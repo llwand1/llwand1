@@ -5,7 +5,7 @@
 </picture>
 
 <p align="center">
-  <a href="https://11wand.com"><img src="https://img.shields.io/badge/11WAND.COM-11wand.com-007AFF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="线上实例 11wand.com"></a>
+  <a href="https://11wand.com"><img src="https://img.shields.io/badge/%E7%BA%BF%E4%B8%8A%E5%AE%9E%E4%BE%8B-11wand.com-007AFF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="线上实例 11wand.com"></a>
   <a href="https://github.com/llwand1/studentbuddy-v2"><img src="https://img.shields.io/badge/SOURCE-studentbuddy--v2-181717?style=for-the-badge&logo=github&logoColor=white" alt="源码 studentbuddy-v2"></a>
   <a href="mailto:3525748705@qq.com"><img src="https://img.shields.io/badge/EMAIL-3525748705%40qq.com-EA4335?style=for-the-badge&logo=minutemailer&logoColor=white" alt="邮箱"></a>
   <img src="https://komarev.com/ghpvc/?username=llwand1&label=VIEWS&color=007aff&style=for-the-badge" alt="Profile views">
