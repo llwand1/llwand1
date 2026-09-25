@@ -2,9 +2,8 @@
 # 逐个探活 README 里用到的每一个徽章 URL —— 死图不能进交付物。
 set -u
 PROBE=(
-  "https://img.shields.io/badge/11WAND.COM-11wand.com-007AFF?style=for-the-badge&logo=googlechrome&logoColor=white"
+  "https://img.shields.io/badge/%E7%BA%BF%E4%B8%8A%E5%AE%9E%E4%BE%8B-11wand.com-007AFF?style=for-the-badge&logo=googlechrome&logoColor=white"
   "https://img.shields.io/badge/SOURCE-studentbuddy--v2-181717?style=for-the-badge&logo=github&logoColor=white"
-  "https://img.shields.io/badge/EMAIL-3525748705%40qq.com-EA4335?style=for-the-badge&logo=minutemailer&logoColor=white"
   "https://komarev.com/ghpvc/?username=llwand1&label=VIEWS&color=007aff&style=for-the-badge"
   "https://img.shields.io/github/v/release/llwand1/studentbuddy-v2?label=release&color=8a63f6&style=flat-square"
   "https://img.shields.io/github/last-commit/llwand1/studentbuddy-v2?label=last+commit&color=007aff&style=flat-square"

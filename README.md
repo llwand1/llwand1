@@ -1,18 +1,16 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img src="assets/hero-light.svg" width="100%" alt="llwan —— 储能材料 → 自学转开发 · AI 应用 &amp; Node 服务端 · 线上实例 11wand.com">
+  <img src="assets/hero-light.svg" width="100%" alt="llwan —— AI 应用 &amp; Node 服务端 · 全栈独立开发 · 线上实例 11wand.com">
 </picture>
 
 <p align="center">
   <a href="https://11wand.com"><img src="https://img.shields.io/badge/%E7%BA%BF%E4%B8%8A%E5%AE%9E%E4%BE%8B-11wand.com-007AFF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="线上实例 11wand.com"></a>
   <a href="https://github.com/llwand1/studentbuddy-v2"><img src="https://img.shields.io/badge/SOURCE-studentbuddy--v2-181717?style=for-the-badge&logo=github&logoColor=white" alt="源码 studentbuddy-v2"></a>
-  <a href="mailto:3525748705@qq.com"><img src="https://img.shields.io/badge/EMAIL-3525748705%40qq.com-EA4335?style=for-the-badge&logo=minutemailer&logoColor=white" alt="邮箱"></a>
   <img src="https://komarev.com/ghpvc/?username=llwand1&label=VIEWS&color=007aff&style=for-the-badge" alt="Profile views">
 </p>
 
-储能材料工程技术专业在读，自学转做开发，现在主要写 **AI 应用** 和 **Node 服务端**。
-手上在维护三个项目：一个已经跑在线上的 AI 学习助手、一个把多家 AI 编成协作池的本地控制台、一个会主动打招呼的简历 Agent。
+现在主要写 **AI 应用** 和 **Node 服务端**，手上在维护三个项目：一个已经跑在线上的 AI 学习助手、一个把多家 AI 编成协作池的本地控制台、一个会主动打招呼的简历 Agent。
 习惯把取舍写进文档，也习惯**先拿能跑的东西说话**——下面那个站点就是。
 
 ---
@@ -166,6 +164,5 @@
 
 - **线上站点** —— <https://11wand.com>
 - **GitHub** —— [@llwand1](https://github.com/llwand1)
-- **邮箱** —— [3525748705@qq.com](mailto:3525748705@qq.com)
 
-<sub>Storage-materials major, self-taught developer. I build AI applications and Node backends — currently shipping **[StudentBuddy](https://11wand.com)**, a local-first learning assistant that runs online as a multi-user web service.</sub>
+<sub>I build AI applications and Node backends — currently shipping **[StudentBuddy](https://11wand.com)**, a local-first learning assistant that runs online as a multi-user web service.</sub>

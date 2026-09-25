@@ -179,11 +179,11 @@ def hero(p, mode):
       font-weight="700" font-family="{MONO}" fill="#ffffff" text-anchor="middle"
       letter-spacing="-1">11</text>
 
-<!-- 名称与身份 -->
+<!-- 名称与身份：名字必须用 SANS —— 等宽栈下 llwan 与 11wan 字形完全相同，会读错 -->
 <text x="{name_x}" y="{name_base}" font-size="{name_fs}" font-weight="800"
-      font-family="{MONO}" fill="{p['text']}" letter-spacing="-0.5">llwan</text>
+      font-family="{FONT}" fill="{p['text']}" letter-spacing="-0.5">llwan</text>
 <text x="{sub_x}" y="{sub_base}" font-size="{sub_fs}" font-family="{FONT}"
-      fill="{p['muted']}">储能材料 → 自学转开发 · AI 应用 &amp; Node 服务端</text>
+      fill="{p['muted']}">AI 应用 &amp; Node 服务端 · 全栈独立开发</text>
 
 {''.join(chip_svg)}
 
