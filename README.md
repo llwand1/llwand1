@@ -65,25 +65,4 @@
   <img src="assets/milestone-light.svg" width="100%" alt="StudentBuddy 成长时间线：2026.03 GitHub 起步 → 2026.07 v1 → 2026.09.05 v2 重写 → 2026.09.19 11wand.com 上线 → 2026.09.24 v0.2.118 发布">
 </picture>
 
----
-
-## 给招聘方
-
-| | |
-|---|---|
-| **目标岗位** | AI 应用开发 / 全栈（实习） |
-| **期望城市** | 长沙 · 株洲 / 远程 |
-| **到岗时间** | 随时 |
-
-30 秒：打开 **[11wand.com](https://11wand.com)** 点一次「免注册，直接体验」。
-
-5 分钟：读 [studentbuddy-v2 的「给面试官」一节](https://github.com/llwand1/studentbuddy-v2#给面试官一条-30-秒到-15-分钟的阅读路径)，那里给了 30 秒到 10 分钟四条路径，每条都配可当场复验的机器证据（`npm run check`、`npm run demo:e2e`，零 API key 跑完 9 幕 36 条断言）。
-
----
-
-## 联系
-
-- **站点** —— <https://11wand.com>
-- **GitHub** —— [@llwand1](https://github.com/llwand1)
-
 <sub>I build AI applications and Node backends — currently shipping **[StudentBuddy](https://11wand.com)**, a local-first learning assistant that runs online as a multi-user web service.</sub>
